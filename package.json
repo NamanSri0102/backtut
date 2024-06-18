@@ -1,0 +1,15 @@
+{
+  "name": "backend_tutorials",
+  "version": "1.0.0",
+  "description": "a basic practice program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "naman srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
