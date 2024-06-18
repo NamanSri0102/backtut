@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/twitter',(req,res)=>{res.send('namansrivastava');
-})
+})  
 
 app.get('/login',(req,res)=>{
     res.send('<h1>welcome to login page</h1>')
@@ -19,4 +19,4 @@ app.get('/youtube',(req,res)=>{
 })
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
-})
+})  
